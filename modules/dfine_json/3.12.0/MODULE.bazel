@@ -13,6 +13,6 @@
 
 module(
     name = "dfine_json",
-    version = "v3.12.0",
+    version = "3.12.0",
     compatibility_level = 0,
 )
