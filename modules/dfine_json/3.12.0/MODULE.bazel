@@ -13,6 +13,12 @@
 
 module(
     name = "dfine_json",
+    compatibility_level = 1,
     version = "3.12.0",
-    compatibility_level = 0,
+    repo_mapping = {
+        "rules_license": "rules_license",
+        "rules_cc": "rules_cc",
+    },
 )
+bazel_dep(name = "rules_cc", version = "0.0.17")
+bazel_dep(name = "rules_license", version = "1.0.0")
